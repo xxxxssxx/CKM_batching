@@ -2,6 +2,8 @@
 
 This repository contains the simulation code for the paper **“CKM-Enabled Joint Transmission and Batching Optimization for Wireless LLM Services.”**
 
+paper.pdf is a full version of the paper.
+
 ## Overview
 
 Wireless LLM services exhibit a strong **transmission-computation coupling**. Uplink transmission decisions determine when requests arrive at the cloud-side queue, while cloud-side batching decisions determine the urgency of serving newly arriving requests. To capture this coupling, this codebase builds a **time-evolving simulation environment** that jointly models HARQ-based uplink transmission and cloud-side prefill batching, and develops a **PPO-based reinforcement learning controller** for joint decision-making.
